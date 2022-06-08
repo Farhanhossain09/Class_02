@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+body{
+	margin:0;
+}
+
+section{
+    display: flex;
+    text-align: center;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+      background-size: cover !important;
+    background-position: center !important;
+    
+}
+.goodman {
+    background: #008080;
+    background-image:url(../images/goodman.jpg);
+    background-blend-mode: color-burn;
+  
+}
+	.badman{
+	background: #ff0000;
+	
+	
+}
+
+.goodgirl {
+    background: green;
+    background-image: url(../images/goodgirl.jpg);
+    background-blend-mode: screen;
+   
+}
+   .badgirl{
+    background: #ffa500;
+    background-image: url(../images/badgirl.jpg);
+    background-blend-mode: darken;;
+}
+h1{
+	font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+	color: whitesmoke;
+    letter-spacing: 3px;
+	margin:0;
+}
